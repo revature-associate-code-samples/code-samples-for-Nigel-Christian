@@ -85,31 +85,20 @@ app.get('/',function (req, res) {
         lightning.decodePayReq(invoice, function(err, response){
             let hash = response.payment_hash;
             res.send(html1+'window.open("/cs1/'+hash+html+invoice+html2); 
-        })
-        
-        
-        
-    });
-    
-});
-
-//working on sending payment
-app.get('/okane/:payReq', (req, res) => {
+        })    
+    });  
 });
 
 app.get('/verify/:Hash', cors(corsOptions), (req, res) => {
     data = req.params;
     payment = data.Hash;
     
-    var request = { 
+    let request = { 
         r_hash_str: payment
       }
       lightning.lookupInvoice(request, function(err, response) {
-                res.send(response);
-            
-  });
-        
-   
+          res.send(response);       
+  });  
 });
 
 app.get('/cs1/:Hash', (req, res) => {
