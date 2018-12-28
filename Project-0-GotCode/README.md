@@ -1,6 +1,6 @@
 # GotCode
 Lightning Network Application (lapp) for sharing code via micropayments and paywalls.
-Primary NodeJS testing server for https://gotcode.hopto.org. Recent Bitcoin and blockchain relate news is also available.
+Primary NodeJS testing server for https://gotcode.hopto.org. Recent Bitcoin and blockchain related news is also available.
 <hr>
 
 Full Repository: 
