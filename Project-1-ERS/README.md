@@ -1,6 +1,7 @@
 <h3>Expense Reimbursement System (ERS) </h3>
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
-
+<hr>
+Full Repository: https://github.com/callmekurisu/project1-ers-callmekurisu/tree/production
 <h3>Roles / Responsibilities</h3>
 <ul>
   <li>Crafted a PostgreSQL database on AWS RDS for relational database management.
