@@ -1,30 +1,17 @@
-<h1>Travel Reimbursement Full-Stack Web App</h1>
+<h3>Expense Reimbursement System (ERS) </h3>
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
-<h4>Users can submit and view reimbursements. Manager can view all reimbursements by status and approve or deny request.</h4>
-
-* PostgreSQL database (done)
-    - tables
-    - initialization
-* Models (done)
-    - User
-    - Reimbursement
-* DAOs (done)
-    - User
-    - Reimbursement
-* Service Layer (done)
-    - User
-    - Reimbursement
-* Utils (done) 
-    - connection
-    - hashing
-    - Timestamp
-    - auth 
-* Front Controller (done)
-    - User Controller
-    - Reimb Controller
-* Client side (done)
-    - html, css, js
-    - Login
-    - Registration
-    - User/Manger Dashboards
-    - React refactoring 
+<h3>Roles / Responsibilities</h3>
+<ul>
+  <li>Crafted a PostgreSQL database on AWS RDS for relational database management.
+  <li>Employed Front Controller design pattern to handle all requests.
+  <li>Performed authentication via Java sessions.
+  <li>Designed controllers for web services consumption.
+  <li>Executed custom SQL for business logic automation.
+  <li>Created hashing and time stamping utilities for increased functionality and improvement of code readability.
+  <li>Utilized React components to facilitate enhanced user experience through a single-page application.
+  <li>Deployed artifacts to AWS Elastic Beanstalk and S3 for production.
+  <li>Automated builds through AWS CodeBuild and GitHub integration.
+</ul>
+    <h3>Environment / Technologies</h3>
+JavaScript, HTML, CSS, AJAX, SQL, Java, Servlets, JDBC, Axios, React, AWS Elastic Beanstalk, AWS S3, AWS Route 53
