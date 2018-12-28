@@ -1,0 +1,562 @@
+body {
+  margin: 0;
+}
+.jss166 {height: 0px !important;}
+#root { background-color: #d7e5f1 !important;}
+.flex-row     {  display: flex;  flex-direction: row;}
+.flex-column  {  display: flex;  flex-direction: column;}
+.xs-margin-column { margin: 5px;}
+.color-1     { color: #ffab00;}
+.color-2     { color: red;}
+.color-3     { color: red;}
+
+/*********************************
+      NavBar
+*********************************/
+#app-navbar { background-color: #FC9536;}
+#nav-logo   { 
+  cursor: pointer; 
+  padding: 0;
+  font-family: serif;
+  font-size: 56px;
+}
+.navbar-tabs   { 
+  cursor: pointer; 
+  padding: 0;
+  font-family: serif;
+  font-size: 20px !important;
+}
+
+/*********************************
+      Banner
+*********************************/
+.slider-wrapper {
+  margin: 10px auto !important;
+  box-shadow: 4px 4px 18px grey;
+}
+.control-arrow {
+  height: 89% !important;
+  margin: 9px auto !important;
+}
+/*********************************
+      Snackbar
+*********************************/
+.app-snackbar-message {
+  margin: 0;
+  font-size: small;
+}
+/*********************************
+      Advertisement Text
+*********************************/
+.advertise-text-wrapper {
+
+}
+
+.advertise-span {}
+.advertise-text { color: #17389A;}
+
+.advertise-span {
+  border-top: 2px 
+}
+
+.advertise-text {
+  text-align: center;
+  font-size: 3em;
+}
+
+/*********************************
+      Login
+*********************************/
+#login-title {
+  text-align: center;
+}
+/*********************************
+      Submit Bounty
+*********************************/
+#submit-bounty-wrapper {
+  box-shadow: 2px 2px 10px;
+  background-color: #f7f7f7;
+  padding: 14px;
+  margin: 20px auto;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-bounty-header { color: #f9bd60;}
+#submit-bounty-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bounty-select-title {  margin: 0 20px 0 0; width: 200px; }
+#bounty-select-timer {  width: 300px;}
+#bounty-select-description { width: 100%; }
+#bounty-select-amount   { width: 200px;}
+#bounty-select-subjects { height: 100px; }
+div[class^="SelectSubjects-"] { height: auto !important;}
+#bounty-select-subjects > div { height: auto !important; }
+
+
+.SelectSubjects-root-277 { height: auto !important;}
+#submit-bounty-btn { 
+  align-self: flex-end;
+  width: 150px;
+  margin: 15px 0px 0px 0px;
+}
+
+/*********************************
+    Bounty Table 
+***********************************/
+.bounty-window-wrapper {
+  max-width:85%;
+  margin: 25px auto;
+}
+
+.slick-prev:before, .slick-next:before{
+  color:#ff7e0c;
+}
+
+.bounty-carousel-wrapper {
+  background-color: white;
+  box-shadow: 1px 1px 10px grey;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 30px;
+  overflow-x: auto;
+  min-height: 180px;
+}
+
+.bounty-window-title {
+  font-weight: initial;
+  text-decoration: underline;
+  font-size: x-large;
+  margin: 13px auto;
+  color: #de9000;
+}
+
+.bounty-card {
+  box-shadow: 1px 1px 10px grey !important;
+  border: 0.3px solid;
+  flex: 0 0 200px;
+  width: 200px;
+  height: 155px;
+  margin: 5px 5px;
+  overflow: visible !important;
+  display: inline-block;
+}
+
+.bounty-card-main   { 
+  height: 120px; 
+  margin: 5px;
+  overflow: hidden;
+}
+.bounty-card-title  { margin: 0 !important;}
+.bounty-card-content {
+  display: inline-block  !important;
+  width: -webkit-fill-available   !important;
+  height: -webkit-fill-available  !important;
+  padding: 0px !important;
+}
+
+.bounty-card-chip {
+  display: inline;
+  cursor: pointer !important;
+  font-size: 12px !important;
+  height: 20px !important;
+}
+
+.display-initial{
+  display: initial !important;
+}
+
+.bounty-card-footer {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 100.5%;
+  background: linear-gradient(rgb(252, 106, 54),rgb(236, 110, 110));
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  left: -0.2px;
+  bottom: -0.8px;
+}
+
+.bounty-card:hover {  cursor: pointer;}
+
+.bounty-window-fade-left {
+  flex: 0 0 40px;
+  content: '';
+  display: flex;
+  height: 190px;
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(251, 251, 251, 0) 100%);
+  position: relative;
+  margin-right: -40px;
+}
+
+.bounty-window-fade-right {
+  flex: 0 0 40px;
+  content: '';
+  display: flex;
+  height: 190px;
+  background: linear-gradient(to left, rgb(255, 255, 255) 0%,  rgba(251, 251, 251, 0) 100%);
+  position: relative;
+  margin-left: -40px;
+}
+
+.bountyTable::-webkit-scrollbar {
+  display: none;
+}
+
+#bounty-window {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 1200px;
+}
+
+/*********************************
+      MainContent.component.js
+*********************************/
+.main-content-wrapper {
+  background-color: inherit;
+  min-height: 80vh;
+  padding: 0 30px;
+}
+
+/*********************************
+      WelcomeBanner.component.js
+*********************************/
+#welcome-banner-wrapper {
+  width: 100% !important;
+  margin: auto !important;
+}
+
+/*********************************
+      Dashboard
+*********************************/
+#dashboard-header { margin: 20px auto;  text-align: center;}
+#dashboard-select-subjects-wrapper {
+  width: 400px !important;
+  margin: auto;
+  box-shadow: 1px 1px 10px #fda219;
+}
+#dashboard-select-subjects-wrapper > div {height: auto !important}
+#dashboard-content { margin: 30px auto;}
+/*********************************
+      Store.component.js
+*********************************/
+#store-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#store-header {  width: 700px; margin: 15px auto; text-align: center;}
+#store-header-underline {    width: 100%;
+  border-bottom: 4px solid orange;}
+#store-shelf {
+  display: flex;
+  justify-content: center;
+}
+
+.product-container {
+  cursor: pointer;
+  height: 300px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #616161 !important;
+  box-shadow: 1px 1px 10px black !important;
+}
+
+.product-container:active {animation: shake 0.5s};
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.product-content-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-name-wrapper { height: 20%; }
+.product-name {
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+}
+.product-image-wrapper { height: 65%; position: relative;}
+.product-image-1  {
+  margin: 35px auto;
+  width: 50%;
+  display: block;
+}
+.product-image-2  {
+  margin: 25px auto;
+  width: 75%;
+  display: block;
+}
+.product-image-3  { 
+  margin: auto;
+  width: 110%;
+  position: absolute;
+  left: -10px;
+}
+.product-cost   { margin: auto; color: white}
+.credit-wrapper { align-self: center;}
+.product-credit { margin: 0; color:#63dfff;}
+.product-radio-btn {
+  color: #FFBD2F !important;
+  margin: auto !important;
+  align-self: flex-end;
+}
+
+.gem-image {  height: 20px; margin: 2px 0 0 0;}
+
+#store-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#purchase-btn {
+  margin: 10px auto;
+  height: 30px;
+  width: 140px;
+  justify-self: center;
+}
+
+
+.material-icons.md-36 { font-size: 46px; }
+
+.dialouge-title{
+  background: linear-gradient(rgb(252, 106, 54),rgb(236, 110, 110));
+  padding-top: 8px;
+}
+
+.dialouge-body{
+  background: ghostwhite;
+}
+
+#bounty-modal-main{
+  width: 50% !important;
+  max-width: 50% !important;
+}
+
+#bounty-modal-content-container{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#answer-list-main{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+#answer-main{
+  
+  padding: 10px 10px 10px 0px;
+}
+
+
+#card-main{
+  background: #e0e0eb;
+}
+#card-body{
+  background: ghostwhite !important;
+}
+
+
+
+.answer-card-header{
+  height: 30px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 0px !important;
+  background: linear-gradient(rgb(253, 182, 156),rgb(247, 167, 167));
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin-auto{
+  margin: auto;
+}
+.margin-auto-rating {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#answer-submission-main{
+  
+}
+#bounty-answers-main{
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+}
+
+
+#bounty-content-main{
+  padding-top: 0px;
+  background: ghostwhite;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.bounty-content-column{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-space-between{
+  justify-content: space-between;
+
+}
+
+
+.colorRed{
+  color: Red;
+}
+
+.bounty-content-footer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bounty-content-flex-start{
+  display: flex;
+  flex-direction: row;
+}
+
+.bounty-content-flex-end{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.bounty-vote-button{
+  padding: 0px !important;
+  width:32px !important;
+  min-width:32px !important;
+  background:#f8f8ff;
+}
+
+.answer-button{
+  padding: 0px !important;
+  width:32px !important;
+  min-width:32px !important;
+}
+
+.answer-button-header{
+  padding: 0px !important;
+  height:32px !important;
+  min-width:32px !important;
+}
+
+
+.answer-submit-button{
+  margin-top: 10px !important;
+}
+.answer-card-footer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  border-top: .1px solid ghostwhite;
+}
+
+
+.answer-card-flex-start{
+  display: flex;
+  flex-direction: row;
+}
+
+.answer-header-card-flex-end{
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.answer-card-flex-end{
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.fontSize20{
+  font-size: 20px !important;
+}
+.fontSize30{
+  font-size: 30px !important;
+}
+.button-flex-end{
+  margin-left: auto;
+}
+.button-center{
+  margin: auto;
+  display: flex !important;
+}
+.flex-center{
+  justify-content: center;
+}
+
+.bounty-content-column-left-align{
+  align-self: flex-start;
+
+}
+
+.bounty-content-column-right-align{
+  align-self: flex-end;
+}
+
+/***********************************
+User Profile
+************************************/
+#user-profile-wrapper {
+  margin: 25px auto;
+  padding: 10px 30px;
+  width: 1000px;
+  box-shadow: 1px 1px 10px grey;
+}
+.container .img{
+  text-align:center;
+}
+.container .profile-details{
+  border-left:3px solid #ded4da;
+}
+#user-profile-img-wrapper {
+  border-right: 1px dotted;
+  height: 150px;
+  width: 150px;
+}
+.profile-image {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*******************************
+      footer
+*******************************/
+#footer {
+  height: 10vh;
+  width: 100%;
+  box-shadow: 1px 1px 10px #d7e5f1;
+  background-color: #95c5ee;
+}
+
