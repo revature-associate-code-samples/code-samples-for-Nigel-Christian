@@ -8,4 +8,5 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 QQBounty facilitates a micropayment powered question and answer platform. Users can register, login and create content. Implemented PostgreSQL, Spring Data/MVC, React and Redux.
 <br>
 <h3>Project 3 - Staging Management System</h3>
+
 The Staging Management System allows managers to keep track of Revature associates who have completed training and are awaiting a job assignment. The application is particularly useful in managing associates who are in virtual staging. Developed with Java, Spring, SQL, Hibernate, REST, HTML, CSS, React, Redux
