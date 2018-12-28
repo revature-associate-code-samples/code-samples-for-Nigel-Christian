@@ -13,7 +13,6 @@ export class ManagerComponent extends React.Component {
    }
  }
  //get data to display
- //watch out now! lexical this!
   componentDidMount(){
     ErsClient.get('users/')
       .then((response) => {
@@ -43,8 +42,6 @@ export class ManagerComponent extends React.Component {
           console.log(err);
         })
       }
-      // teach me how to curry! we need this to make the approval button work
-      //without the curry sauce all form id would cascade through
       approve = (rId) => (event) => {
         let statusId = 2;
         ErsClient.patch(`reimbs/${rId}/${statusId}`)
@@ -85,7 +82,6 @@ export class ManagerComponent extends React.Component {
           <h4>Logged in as: Finance Manager</h4>
           }
     <>
-    {/* map through state and pass as props, pass functions too! mind blown! */}
         <hr />
           {
             this.state.reimbs.map(info => 

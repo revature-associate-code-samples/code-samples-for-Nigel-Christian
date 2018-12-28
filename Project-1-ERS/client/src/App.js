@@ -1,6 +1,3 @@
-//re-direct port 3000 to 80 with iptables to eliminate port use
-import React, { Component } from 'react';
-//import { Provider } from 'react-redux'; save for refactoring
 
 import './Include/bootstrap';
 import './App.css';
@@ -14,13 +11,10 @@ import { AboutComponent } from './Components/About/About.component';
 import { FourOFourComponent }  from './Components/404/FourOFour.component'
 import { ManagerComponent } from './Components/Manager/Manager.component';
 import { UserComponent } from './Components/User/UserComponent.component';
-//import { store } from './Redux/Store'; refactor later if possible
-
 
 class App extends Component {
   render() {
     return (
-      // <Provider store={store}>
         <BrowserRouter >
           <>
             <AppNav />
@@ -40,7 +34,6 @@ class App extends Component {
             </div>
           </>
         </BrowserRouter>
-      // </Provider >
     );
   }
 }
