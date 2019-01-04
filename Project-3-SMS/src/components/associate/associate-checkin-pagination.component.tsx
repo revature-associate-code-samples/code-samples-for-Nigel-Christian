@@ -52,7 +52,7 @@ class AssociateCheckInPagination extends React.Component<IComponentProps, ICompo
         <div>
           <span className="page-count">Page: {this.state.currentPage}/{TOTAL_PAGES} </span>
           <span>
-            {/* Conditionally render pagination numbers by every ten associates \
+            {/* Conditionally render pagination numbers by every ten check-ins \
           the first item is an element that allows you to go to the previous page*/}
             <Pagination aria-label="check-in navigation">
               <PaginationItem onClick={() => this.previousPage()}>
