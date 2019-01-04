@@ -76,7 +76,7 @@ VALUES(1, 'lodging'),(2,'travel'),(3,'food'),(4,'other');
 INSERT INTO ers.ers_users
 (ers_users_id, ers_username, ers_password, user_first_name, user_last_name, user_email, user_role_id)
 VALUES(1, 'nchristian', 'e4df62dcf00f1cf79a1a175375bc3dc281fde694f7', 'nigel', 'christian', 'nchristian@gmail.com', 1);
-/* example of plaintext password. Don't do this*/
+
 INSERT INTO ers.ers_users
 (ers_users_id, ers_username, ers_password, user_first_name, user_last_name, user_email, user_role_id)
 VALUES(2, 'jdepp', '3993215d55e0595828ea9c70f526dd213540c7ff1d', 'jonny', 'depp', 'jdepp@gmail.com', 2);
